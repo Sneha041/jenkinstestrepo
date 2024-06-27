@@ -1,4 +1,3 @@
-package bank;
 public class BankAccountClass {
   int accno;
   String name;
@@ -26,9 +25,12 @@ public class BankAccountClass {
 		  System.out.println("Cannot withdraw"+amount+". Existing balance is "+balance);
 	  }
   }
-  public void showDetails() {
+  public void showDetails(e) {
 	  System.out.println("Account No: "+accno);
 	  System.out.println("Name: "+name);
 	  System.out.println("Balance: "+balance);
+  }
+  public static void main(String[] args){
+	System.out.println(e.showDetails());
   }
 }
